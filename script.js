@@ -1,26 +1,26 @@
 // داده‌های غذاها با دو حالت گرمی و دانه‌ای
 const foods = {
     "مرغ": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
+        protein: 0.32,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0,
         fat: 0.03,
         image: "https://cdn-icons-png.flaticon.com/512/2821/2821778.png"
     },
     "گوشت": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
+        protein: 0.26,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0,
-        fat: 0.03,
+        fat: 0.15,
         image: "https://cdn-icons-png.flaticon.com/512/17164/17164786.png"
     },
     "ماهی": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
+        protein: 0.22,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0,
-        fat: 0.03,
+        fat: 0.12,
         image: "https://cdn-icons-png.flaticon.com/512/1868/1868665.png"
     },
     "تخم مرغ": {
-        protein: 6.5,   // گرم پروتئین در هر 1 عدد (70 گرمی)
-        carbs: 0.5,
+        protein: 6,   // گرم پروتئین در هر 1 عدد (70 گرمی)
+        carbs: 0,
         fat: 5,
         image: "https://cdn-icons-png.flaticon.com/512/10684/10684395.png",
         unit: "عدد",
@@ -28,27 +28,27 @@ const foods = {
         byUnit: true  // محاسبه بر اساس عدد
     },
     "برنج پخته": {
-        protein: 0.02,  // گرم پروتئین در هر 1 گرم برنج
+        protein: 0.027,  // گرم پروتئین در هر 1 گرم برنج
         carbs: 0.28,
-        fat: 0.01,
+        fat: 0.28,
         image: "https://cdn-icons-png.flaticon.com/512/7997/7997172.png"
     },
     "ماکارونی": {
-        protein: 0.02,  // گرم پروتئین در هر 1 گرم برنج
-        carbs: 0.28,
-        fat: 0.01,
+        protein: 0.05,  // گرم پروتئین در هر 1 گرم برنج
+        carbs: 0.22,
+        fat: 0.04,
         image: "https://cdn-icons-png.flaticon.com/512/6461/6461837.png"
     },
     "رشته پلو": {
-        protein: 0.02,  // گرم پروتئین در هر 1 گرم برنج
+        protein: 0.04,  // گرم پروتئین در هر 1 گرم برنج
         carbs: 0.28,
-        fat: 0.01,
+        fat: 0.05,
         image: "https://cdn-icons-png.flaticon.com/512/2515/2515207.png"
     },
     "نان لواش": {
         protein: 9,     // گرم پروتئین در هر 1 برش (100 گرمی)
-        carbs: 49,
-        fat: 1,
+        carbs: 55,
+        fat: 1.5,
         image: "https://cdn-icons-png.flaticon.com/512/10684/10684646.png",
         unit: "عدد",
         unitWeight: 100,
@@ -56,8 +56,8 @@ const foods = {
     },
     "نان بربری": {
         protein: 9,     // گرم پروتئین در هر 1 برش (100 گرمی)
-        carbs: 49,
-        fat: 1,
+        carbs: 53,
+        fat: 1.5,
         image: "https://cdn-icons-png.flaticon.com/512/10684/10684646.png",
         unit: "نصف",
         unitWeight: 100,
@@ -65,16 +65,16 @@ const foods = {
     },
     "نان سنگگ": {
         protein: 9,     // گرم پروتئین در هر 1 برش (100 گرمی)
-        carbs: 49,
-        fat: 1,
+        carbs: 50,
+        fat: 1.3,
         image: "https://cdn-icons-png.flaticon.com/512/10684/10684646.png",
         unit: "نصف",
         unitWeight: 100,
         byUnit: true
     },
     "میوه ها": {
-        protein: 0,
-        carbs: 14,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        protein: 0.3,
+        carbs: 50,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 0,
         image: "https://cdn-icons-png.flaticon.com/512/8953/8953531.png",
         unit: "عدد",
@@ -82,63 +82,63 @@ const foods = {
         byUnit: true
     },
     "ماست": {
-        protein: 4,
-        carbs: 14,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
-        fat: 0,
+        protein: 1.5,
+        carbs: 4.5,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 0.5,
         image: "https://cdn-icons-png.flaticon.com/512/9691/9691363.png",
         unit: "لیوان",
-        unitWeight: 150,
+        unitWeight: 100,
         byUnit: true
     },
     "دوغ": {
-        protein: 4,
-        carbs: 14,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
-        fat: 0,
+        protein: 1,
+        carbs: 2,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 1,
         image: "https://cdn-icons-png.flaticon.com/512/3414/3414360.png",
         unit: "لیوان",
-        unitWeight: 150,
+        unitWeight: 100,
         byUnit: true
     },
     "شیر": {
-        protein: 4,
-        carbs: 14,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
-        fat: 0,
+        protein: 8,
+        carbs: 12,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 8,
         image: "https://cdn-icons-png.flaticon.com/256/11520/11520758.png",
         unit: "لیوان",
-        unitWeight: 150,
+        unitWeight: 240,
         byUnit: true
     },
     "نوشابه یا دلستر": {
-        protein: 4,
-        carbs: 14,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        protein: 0,
+        carbs: 26,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 0,
         image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
         unit: "لیوان",
-        unitWeight: 150,
+        unitWeight: 240,
         byUnit: true
     },
     "تخمه کدو": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
-        carbs: 0,
-        fat: 0.03,
+        protein: 0.30,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.1,
+        fat: 0.45,
         image: "https://cdn-icons-png.flaticon.com/512/6113/6113423.png"
     },
     "تخمه آفتابگردان": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
-        carbs: 0,
-        fat: 0.03,
+        protein: 0.21,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.2,
+        fat: 0.51,
         image: "https://cdn-icons-png.flaticon.com/512/7627/7627840.png"
     },
     "چیپس": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
-        carbs: 0,
-        fat: 0.03,
+        protein: 0.07,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.50,
+        fat: 0.34,
         image: "https://cdn-icons-png.flaticon.com/512/3050/3050268.png"
     },
     "پوفک": {
-        protein: 0.25,  // گرم پروتئین در هر 1 گرم مرغ
-        carbs: 0,
-        fat: 0.03,
+        protein: 0.05,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.50,
+        fat: 0.35,
         image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
     },
 
