@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاسبه کالری دریافتی روزانه</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>کالری دریافتی روزانه</h1>
+        
+        <!-- بخش انتخاب غذا به صورت کارت‌های مربعی -->
+        <div class="food-grid" id="food-grid">
+            <!-- کارت‌ها با JavaScript پر می‌شوند -->
+        </div>
+        
+        <div class="input-section">
+            <div id="weight-input-container">
+                <!-- این بخش با JS پر می‌شود -->
+            </div>
+            <button id="add-btn">افزودن به محاسبات</button>
+        </div>
+        
+        <!-- نتایج -->
+        <div class="totals">
+            <h2>مجموع مصرف امروز:</h2>
+            <div class="macros">
+                <div class="macro">
+                    <span class="label">پروتئین:</span>
+                    <span id="total-protein">0</span> گرم
+                </div>
+                <div class="macro">
+                    <span class="label">کربوهیدرات:</span>
+                    <span id="total-carbs">0</span> گرم
+                </div>
+                <div class="macro">
+                    <span class="label">چربی:</span>
+                    <span id="total-fat">0</span> گرم
+                </div>
+                <div class="macro highlight">
+                    <span class="label">کالری کل:</span>
+                    <span id="total-calories">0</span> کالری
+                </div>
+            </div>
+           
+                <div class="auto-save-status">
+                    <div class="saved-calories">
+                        <p>کالری امروز: <span id="saved-calories">0</span> کالری</p>
+                        <p>پروتئین امروز: <span id="saved-protein">0</span> گرم</p>
+                        
+                    </div>
+                    <button id="next-day-btn" class="reset-btn">شروع روز جدید</button>
+                </div>
+
+                <div class="weekly-calories">
+                    <h3>کالری هفتگی</h3>
+                    
+                    <!-- لیست انتخاب روز -->
+                    <select id="day-selector">
+                        <option value="saturday">شنبه</option>
+                        <option value="sunday">یکشنبه</option>
+                        <option value="monday">دوشنبه</option>
+                        <option value="tuesday">سه‌شنبه</option>
+                        <option value="wednesday">چهارشنبه</option>
+                        <option value="thursday">پنجشنبه</option>
+                        <option value="friday">جمعه</option>
+                    </select>
+                    
+                    <!-- دکمه ثبت -->
+                    <button id="save-day-btn" class="save-btn">ثبت کالری امروز</button>
+                    
+                    <!-- نمایشگر هفتگی -->
+                    <div class="week-display">
+                        <div class="day" id="saturday">شنبه: <span>0</span> کالری</div>
+                        <div class="day" id="sunday">یکشنبه: <span>0</span> کالری</div>
+                        <div class="day" id="monday">دوشنبه: <span>0</span> کالری</div>
+                        <div class="day" id="tuesday">سه‌شنبه: <span>0</span> کالری</div>
+                        <div class="day" id="wednesday">چهارشنبه: <span>0</span> کالری</div>
+                        <div class="day" id="thursday">پنجشنبه: <span>0</span> کالری</div>
+                        <div class="day" id="friday">جمعه: <span>0</span> کالری</div>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="daily-needs">
+            <h2>نیازهای روزانه بدن شما</h2>
+            
+            <div class="input-group">
+                <label for="height">قد (سانتی‌متر):</label>
+                <input type="number" id="height" placeholder="مثلاً 175">
+            </div>
+            
+            <div class="input-group">
+                <label for="weight">وزن (کیلوگرم):</label>
+                <input type="number" id="weight" placeholder="مثلاً 70">
+            </div>
+            
+            <div class="input-group">
+                <label for="age">سن:</label>
+                <input type="number" id="age" placeholder="مثلاً 30">
+            </div>
+            
+            <div class="input-group">
+                <label for="activity">سطح فعالیت:</label>
+                <select id="activity">
+                    <option value="1.2">کم تحرک</option>
+                    <option value="1.375">سبک</option>
+                    <option value="1.55">متوسط</option>
+                    <option value="1.725">پرتحرک</option>
+                    <option value="1.9">خیلی پرتحرک</option>
+                </select>
+            </div>
+            
+            <div class="results">
+                <div class="saved-calories">
+                    
+                        <p>کالری مورد نیاز روزانه تو: <span class="saved-calories-num" id="saved-calories-dey">0</span> کالری</p>
+                        <p>پروتئین مورد نیاز روزانه تو: <span class="saved-calories-num" id="saved-protein-dey">0</span> گرم</p>
+                    
+                </div>
+                <button  id="calc-calories">کالری روزانه مورد نیاز</button>
+                <button  id="calc-protein">پروتئین روزانه مورد نیاز</button>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
