@@ -72,13 +72,13 @@ const foods = {
         unitWeight: 100,
         byUnit: true
     },
-    "میوه ها": {
-        protein: 0.3,
-        carbs: 50,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
-        fat: 0,
+    "سیب": {
+        protein: 0.5,
+        carbs: 20,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 0.3,
         image: "https://cdn-icons-png.flaticon.com/512/8953/8953531.png",
         unit: "عدد",
-        unitWeight: 100,
+        unitWeight: 150,
         byUnit: true
     },
     "ماست": {
@@ -141,6 +141,116 @@ const foods = {
         fat: 0.35,
         image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
     },
+     "سوسیس": {
+        protein: 6,
+        carbs: 2,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 13,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "عدد",
+        unitWeight: 50,
+        byUnit: true
+    },  
+    "بستنی": {
+        protein: 0.03,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.02,
+        fat: 0.13,
+        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+    },
+      "پنیر پیتزا": {
+        protein: 0.22,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.03,
+        fat: 0.25,
+        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+    },
+      "پنیر": {
+        protein: 0.17,  // گرم پروتئین در هر 1 گرم مرغ
+        carbs: 0.02,
+        fat: 0.22,
+        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+    },
+    "موز": {
+        protein: 1.5,
+        carbs: 27,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 0.3,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "عدد",
+        unitWeight: 120,
+        byUnit: true
+    },
+    "آش دوغ": {
+        protein: 5,
+        carbs: 25,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 5,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "کاسه",
+        unitWeight: 300,
+        byUnit: true
+    },
+    "سوپ": {
+        protein: 3,
+        carbs: 12,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 3,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "کاسه",
+        unitWeight: 250,
+        byUnit: true
+    },
+    "خرما": {
+        protein: 0.2,
+        carbs: 5.3,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 0.1,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "عدد",
+        unitWeight: 8,
+        byUnit: true
+    },
+    "عدسی": {
+        protein: 10,
+        carbs: 30,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 5,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "کاسه",
+        unitWeight: 250,
+        byUnit: true
+    },
+    "خوراک لوبیا چیتی": {
+        protein: 12,
+        carbs: 35,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 6,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "کاسه",
+        unitWeight: 300,
+        byUnit: true
+    },
+    "خورش قرمه سبزی": {
+        protein: 15,
+        carbs: 20,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 20,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "بشقاب",
+        unitWeight: 300,
+        byUnit: true
+    },
+    "کوکو سبزی": {
+        protein: 7,
+        carbs: 10,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 10,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "بشقاب",
+        unitWeight: 150,
+        byUnit: true
+    },
+    "املت": {
+        protein: 12,
+        carbs: 8,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
+        fat: 14,
+        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        unit: "بشقاب",
+        unitWeight: 200,
+        byUnit: true
+    },
+    
+  
 
 };
 
