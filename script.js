@@ -145,7 +145,7 @@ const foods = {
         protein: 6,
         carbs: 2,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 13,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/1857/1857937.png",
         unit: "عدد",
         unitWeight: 50,
         byUnit: true
@@ -154,25 +154,25 @@ const foods = {
         protein: 0.03,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0.02,
         fat: 0.13,
-        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+        image: "https://cdn-icons-png.flaticon.com/512/284/284809.png"
     },
       "پنیر پیتزا": {
         protein: 0.22,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0.03,
         fat: 0.25,
-        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+        image: "https://cdn-icons-png.flaticon.com/256/16414/16414441.png"
     },
       "پنیر": {
         protein: 0.17,  // گرم پروتئین در هر 1 گرم مرغ
         carbs: 0.02,
         fat: 0.22,
-        image: "https://cdn-icons-png.flaticon.com/512/5624/5624353.png"
+        image: "https://cdn-icons-png.flaticon.com/512/1303/1303977.png"
     },
     "موز": {
         protein: 1.5,
         carbs: 27,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 0.3,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/765/765607.png",
         unit: "عدد",
         unitWeight: 120,
         byUnit: true
@@ -181,7 +181,7 @@ const foods = {
         protein: 5,
         carbs: 25,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 5,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/3724/3724181.png",
         unit: "کاسه",
         unitWeight: 300,
         byUnit: true
@@ -190,7 +190,7 @@ const foods = {
         protein: 3,
         carbs: 12,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 3,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/13420/13420464.png",
         unit: "کاسه",
         unitWeight: 250,
         byUnit: true
@@ -199,7 +199,7 @@ const foods = {
         protein: 0.2,
         carbs: 5.3,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 0.1,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/9622/9622184.png",
         unit: "عدد",
         unitWeight: 8,
         byUnit: true
@@ -208,7 +208,7 @@ const foods = {
         protein: 10,
         carbs: 30,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 5,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/12928/12928180.png",
         unit: "کاسه",
         unitWeight: 250,
         byUnit: true
@@ -217,7 +217,7 @@ const foods = {
         protein: 12,
         carbs: 35,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 6,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/12928/12928180.png",
         unit: "کاسه",
         unitWeight: 300,
         byUnit: true
@@ -226,7 +226,7 @@ const foods = {
         protein: 15,
         carbs: 20,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 20,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/256/17765/17765386.png",
         unit: "بشقاب",
         unitWeight: 300,
         byUnit: true
@@ -235,7 +235,7 @@ const foods = {
         protein: 7,
         carbs: 10,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 10,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/706/706857.png",
         unit: "بشقاب",
         unitWeight: 150,
         byUnit: true
@@ -244,7 +244,7 @@ const foods = {
         protein: 12,
         carbs: 8,      // گرم کربوهیدرات در هر 1 عدد (100 گرمی)
         fat: 14,
-        image: "https://cdn-icons-png.flaticon.com/512/6489/6489766.png",
+        image: "https://cdn-icons-png.flaticon.com/512/3280/3280100.png",
         unit: "بشقاب",
         unitWeight: 200,
         byUnit: true
